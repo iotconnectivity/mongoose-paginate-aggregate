@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-paginate",
-  "description": "Pagination plugin for Mongoose",
+  "name": "mongoose-paginate-podgroup",
+  "description": "Pagination plugin for Mongoose modified",
   "version": "5.0.2",
   "author": {
     "name": "Edward Hotchkiss",
