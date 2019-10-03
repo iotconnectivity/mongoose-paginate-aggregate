@@ -71,9 +71,10 @@ function paginate(query, options, callback) {
   promises = Object.keys(promises).map((x) => promises[x]);
   return Promise.all(promises).then((data) => {
     let result = {
-      docs: data.docs,
-      total: data.count,
-      limit: limit
+      docs: data[0],
+      total: (data[1] && data[1][0]) ? data[1][0].count : 0,
+      limit,
+      maxCount
     };
     if (offset !== undefined) {
       result.offset = offset;
