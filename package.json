@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-paginate-podgroup",
+  "name": "mongoose-paginate-aggregate",
   "description": "Pagination plugin for Mongoose modified",
   "version": "5.0.3",
   "author": {
